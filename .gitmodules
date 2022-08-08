@@ -1,0 +1,3 @@
+[submodule "geometry"]
+	path = geometry
+	url = https://github.com/ruansp/minkowski-sum-closed-form
