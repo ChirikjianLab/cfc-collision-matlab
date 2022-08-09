@@ -14,8 +14,8 @@ This is the MATLAB implementation for the narrow phase collision detection probl
 
 ## Clone the repository and submodule
 ```
-git clone https://github.com/ruansp/cfc_collision_matlab.git
-cd cfc_collision_matlab/
+git clone https://github.com/ChirikjianLab/cfc-collision-matlab.git
+cd cfc-collision-matlab/
 git submodule update --init
 ```
 
