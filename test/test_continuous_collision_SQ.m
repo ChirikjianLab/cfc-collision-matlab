@@ -133,6 +133,9 @@ disp(['Time step at minimum distance or first time of contact: ',...
 
 %% Animation
 if is_animate
+    v = VideoWriter("video_cfc_continuous.avi");
+    v.open();
+
     figure;
     
     steps = 100;
@@ -186,5 +189,10 @@ if is_animate
         
         hold off;
         pause(.1)
+
+        f = getframe(gcf);
+        v.writeVideo(f);
     end
+
+    v.close();
 end
